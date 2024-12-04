@@ -1,0 +1,84 @@
+@font-face{
+    font-family: sample;
+    src: url(/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background-image: url('/creative-basketball-championship-league-background-winner_1017-44931.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+h3{
+    color: #EEEEEE;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 25px;
+    height: 70vh;
+}
+
+
+
+.score-display {
+    background-color: black;
+    width: 100px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+
+#score , #score2 {
+    font-size: 40px;
+    color: #ff4d4d;
+    font-family: sample, monospace;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.score-btn1 , .score-btn2 , .score-btn3 {
+    background-color: white;
+    color: #1a2740;
+    border: 2px solid white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: sample;
+}
+
+.score-btn1:hover , .score-btn2:hover, .score-btn3:hover{
+    background-color: white;
+}
+
+#new-game{
+    background-color: white;
+    color: #1a2740;
+    border: 2px solid white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Verdana, sample, sans-serif;
+}
+
